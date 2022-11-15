@@ -26,7 +26,7 @@ Default pinout:
 <thead>
   <tr>
     <th class="tg-nlhk">ISD1820</th>
-    <th class="tg-nlhk">STM32F446RE</th>
+    <th class="tg-nlhk">STM32F446RE LABELS</th>
     <th class="tg-nlhk">Description</th>
   </tr>
 </thead>
