@@ -22,15 +22,6 @@ This API contains functions to provide use of some hardware resources from ISD 1
 Default pinout:
 ![My Image](isd1820_pinout.png)
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-nlhk{background-color:#000000;border-color:inherit;color:#ffffff;font-weight:bold;text-align:center;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -94,6 +85,10 @@ This API was implemented and tested in STM32 Nucleo-64 with STM32f446RE MCU. How
 ## API main files:
 * isd1820.c
 * isd1820.h
+
+## How to use it:
+
+To use it, it is necessary to include "isd1820.h" in your main file and define the Output pins according to the labels provided in the table.
 
 ### Authors:  
    * David Simon Marques - <davidsimon@ufmg.br>
